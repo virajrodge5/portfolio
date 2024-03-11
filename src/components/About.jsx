@@ -18,7 +18,7 @@ const ServiceCard = ({ index, title, icon }) => (
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col hover:scale-110 transition-transform duration-300'
+        className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col hover:scale-105 transition-transform duration-300'
       >
         <img
           src={icon}
@@ -37,13 +37,12 @@ const ServiceCard = ({ index, title, icon }) => (
 const About = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <div>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
-      </motion.div>
+      </div>
 
-      <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
+      <p
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
         I'm a software developer with experience in JavaScript, and expertise in frameworks like React and NodeJS. I'm also quite interested in core ECE topics like FPGAs.
@@ -52,7 +51,7 @@ const About = () => {
         <br />
         <br />
         Apart from these in my free time I love watching sports especially cricket and football.
-      </motion.p>
+      </p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (

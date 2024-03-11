@@ -59,7 +59,7 @@ const Navbar = () => {
           ))}
           <img
             src={
-              "https://hits.sh/hv789.vercel.app.svg?style=for-the-badge&label=Views&color=555555&labelColor=711ea6"
+              "https://hits.sh/portfolio-virajrodge5.vercel.app.svg?style=for-the-badge&color=555555&labelColor=711ea6"
             }
             alt="brand"
           />
@@ -95,7 +95,7 @@ const Navbar = () => {
               ))}
               <img
                 src={
-                  "https://hits.sh/hv789.vercel.app.svg?style=for-the-badge&label=Views&color=555555&labelColor=711ea6"
+                  "https://hits.sh/portfolio-virajrodge5.vercel.app.svg?style=for-the-badge&color=555555&labelColor=711ea6"
                 }
                 alt="brand"
               />

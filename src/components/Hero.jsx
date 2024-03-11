@@ -45,7 +45,7 @@ const Hero = () => {
                transition duration-500"
               href="#contact"
             >
-              Contact Me
+              Let's Talk
             </AnchorLink>
 
             <a
