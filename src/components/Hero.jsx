@@ -42,7 +42,7 @@ const Hero = () => {
           >
             <AnchorLink
               className="bg-[#915EFF] hover:text-white text-black py-3 px-7 font-semibold
-               transition duration-500"
+               transition duration-500 whitespace-nowrap"
               href="#contact"
             >
               Let's Talk
