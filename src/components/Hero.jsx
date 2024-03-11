@@ -81,7 +81,7 @@ const Hero = () => {
           </div>
         </div>
       </section>
-      <div className="md:hidden flex justify-center mx-auto mt-[-450px] items-center">
+      <div className="md:hidden flex justify-center mx-auto mt-[-250px] items-center">
         <img className="w-85" src={img} alt="Coding-guy" />
       </div>
     </>
