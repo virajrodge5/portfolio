@@ -7,7 +7,7 @@ import img from "../assets/img.png";
 
 const Hero = () => {
   return (
-    <section className={`relative w-full h-screen mx-auto mb-[-80px]`}>
+    <section className={`relative w-full h-screen mx-auto md:mb-[-80px] mb-[-140px]`}>
       <div
         className={`absolute inset-0 top-[120px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >

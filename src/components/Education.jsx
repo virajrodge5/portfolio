@@ -48,14 +48,14 @@ const ExperienceCard = ({ experience }) => {
 const Education = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <div>
         <p className={`${styles.sectionSubText} text-center mt-[-30px]`}>
           My journey so far
         </p>
         <h2 className={`${styles.sectionHeadText} text-center mb-[-20px]`}>
           Education.
         </h2>
-      </motion.div>
+      </div>
 
       <div className='mt-20 flex flex-col'>
         <VerticalTimeline>
